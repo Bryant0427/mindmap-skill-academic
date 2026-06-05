@@ -1,0 +1,6 @@
+{
+  "topic": "深度学习中的注意力机制研究",
+  "description": "本研究聚焦于深度学习中注意力机制的发展演变，包括自注意力机制、多头注意力、交叉注意力等，分析其在计算机视觉和自然语言处理中的应用效果",
+  "inputType": "naturalLanguage",
+  "autoSelectTheme": true
+}
