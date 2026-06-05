@@ -1,0 +1,42 @@
+{
+  "name": "mindmap-skill-academic",
+  "version": "1.0.0",
+  "description": "Academic-focused skill for generating beautiful mind maps (XMind format) for research, thesis writing, and literature review. Supports natural language and structured JSON input with intelligent theme selection.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "mindmap",
+    "xmind",
+    "academic",
+    "research",
+    "skill",
+    "ai",
+    "copilot"
+  ],
+  "author": "Bryant0427",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "xml2js": "^0.6.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/jest": "^29.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "prettier": "^3.0.0"
+  }
+}
